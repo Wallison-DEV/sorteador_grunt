@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');   
+@import "maps.less";
+
+body{
+    background-color: #colors[corDoFundo];
+    font-family: #fonts[fontePrincipal];
+    color: #colors[corDoTexto]
+}
+h1{
+    font-family: #fonts[fonteDoTitulo];
+}
+main{
+    max-width: 960px;
+    width: 100%;
+    margin : 0 auto;
+    font-size : 2em;
+    text-align: center;
+    align-content: center;
+}
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius:8px;
+    background-color: #colors[corDeFundoBotao];
+    color: #colors[corDeTextoBotao];
+    font-family : #fonts[fontePrincipal];
+}
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size : 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-align:center;
+    border-bottom: 6px solid #fff;
+}
+#resultado{
+    border:3px dashed #fff;
+    margin: 16px auto;
+    text-align: center;
+    padding: 24px;
+    display: none;
+    span{
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+    }
+}
